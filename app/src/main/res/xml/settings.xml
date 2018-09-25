@@ -11,7 +11,7 @@
             android:title="@string/source_apple_2015" />
 
         <ListPreference
-            android:defaultValue="1080_sdr"
+            android:defaultValue="4k_sdr"
             android:entries="@array/source_apple_2017_entries"
             android:entryValues="@array/source_apple_2017_values"
             android:key="source_apple_2017"

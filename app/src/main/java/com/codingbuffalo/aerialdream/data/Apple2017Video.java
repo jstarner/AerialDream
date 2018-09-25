@@ -37,7 +37,7 @@ public class Apple2017Video extends Video {
             case "4k_hdr":
                 return url_4K_HDR;
             default:
-                return url_1080_SDR;
+                return url_4K_SDR;
         }
     }
 }
