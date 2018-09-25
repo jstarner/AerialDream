@@ -41,7 +41,7 @@ public class VideoController implements VideoInteractor.Listener, ExoPlayerView.
         int cacheSize = Integer.valueOf(prefs.getString("cache_size", cache));
 
         source_apple_2015 = prefs.getString("source_apple_2015", "all");
-        source_apple_2017 = prefs.getString("source_apple_2017", "1080_sdr");
+        source_apple_2017 = prefs.getString("source_apple_2017", "4k_sdr");
 
         binding.setShowLocation(showLocation);
         binding.setShowClock(showClock);
